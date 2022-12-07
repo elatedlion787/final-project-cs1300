@@ -1,0 +1,115 @@
+
+.portfolio-card h2{
+    font-size: 15px;
+}
+
+body.active-modal {
+    overflow-y: hidden;
+  }
+  
+  .btn-modal {
+    padding: 10px 20px;
+    display: block;
+    /* margin: 100px auto 0; */
+    font-size: 18px;
+  }
+  
+  .modal,
+  .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    overflow-y: auto;
+    overflow-x: auto;
+    z-index: 1000;
+  }
+  
+  .overlay {
+    background-color: #ecf0f3;
+  }
+
+  .modal-content img{
+    height: 400px;
+    width: 3500px;
+    margin-top: 20%;
+    padding-bottom: 20px;
+    overflow-y:scroll;
+  }
+  .modal-content {
+    display: flex;
+    position: relative;
+    top: 12%;
+    left: 10%;
+    line-height: 1.4;
+    background: #f0f3f5;
+    border-radius: 2px;
+    max-width: 85%;
+    min-width: 60%;
+    /* max-width: 85%;
+    min-width: 60%;
+    min-height: 10%; */
+    /* height: 70%; */
+    z-index: 9999;
+    box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    overflow-y: auto;
+  }
+  
+  .modal-text {
+    padding: 0px 20px 0px 80px;
+  }
+  .modal-text h1 {
+    margin: 15px 0px 20px -15px;
+    font-size: 22px;
+  }
+  .modal-text p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+  .model-text ul{
+    text-indent: 2em;
+  }
+  .modal-text li{
+    margin-left: 2em;
+    padding-bottom: 10px;
+    list-style-type: disc;
+  }
+  .modal-text button.view-project {
+    text-indent: 2em;
+    color: #ff014f;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    width: 100%;
+  }
+
+  .modal-text button.view-project:hover{
+    background: linear-gradient(145deg, #2684cb, #9f0707);
+    color: white;
+  }
+
+  .modal-text button.close-modal {
+    color: red;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    /* padding: 0 0; */
+    font-size: 20px;
+    padding-bottom: 2000px; 
+  }
+  .modal-text button.close-modal i {
+    margin: 0;
+  }
+  
+  

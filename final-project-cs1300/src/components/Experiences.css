@@ -1,0 +1,90 @@
+.experiences .heading h1 {
+    font-size: 28px;
+
+    
+  }
+.experiences .heading h2{
+    font-size: 28px;
+    margin-left: 8%;
+    font-weight: 500;
+}
+
+.experiences .heading h4{
+    padding-top: 50px;
+}
+  .experiences .content {
+    max-width: 75%;
+    margin: auto;
+    margin-left: 17%;
+  }
+  .experiences .box {
+    padding: 30px;
+  }
+  .experiences hr {
+    margin: 20px 0 20px 0;
+    border: 2px solid #e3e9ed;
+    background-color: #e3e9ed;
+  }
+
+  .experiences .rate .btn_shadow {
+    color: #ff014f;
+    padding: 15px 10px;
+    font-weight: 400;
+    transition: 0.5s;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .experiences p {
+    font-size: 18px;
+    width: 70%;
+    transition: 0.5s;
+  }
+  .experiences .box {
+    margin-bottom: 40px;
+    position: relative;
+  }
+
+  /* .experiences .box:hover .btn_shadow {
+    background: #ff3a75;
+    box-shadow: none;
+    color: white;
+  } */
+
+  .experiences .box h6{
+    color: black;
+    box-shadow: none;
+  }
+
+  .experiences .content-section {
+    position: relative;
+  }
+
+  .experiences .left{
+    position: relative
+  }
+
+
+  .experiences .box{
+    content: "";
+    position: relative;
+    top: 13%;
+    left: -8%;
+    
+  } 
+
+  .experiences .box:hover{
+    background: #fd83a8dc;
+    /* color: white; */
+    box-shadow: none;
+  }
+
+  .experiences .rate .btn_shadow:hover{
+    background: white;
+  }
+
+
+
+  
