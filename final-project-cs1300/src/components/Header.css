@@ -8,6 +8,10 @@ header {
     line-height: 10vh;
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
     box-shadow: 4px 4px 10px #cbcbcb, -2px -2px 8px #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 80%;
 }
 
 header .container{
